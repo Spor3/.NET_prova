@@ -10,3 +10,15 @@ C:\Users\ssporeni\Desktop\Study\.Net\prova_02_breakfast\BuberBreakfast\BuberBrea
 C:\Users\ssporeni\Desktop\Study\.Net\prova_02_breakfast\BuberBreakfast\BuberBreakfast.Contracts\obj\Debug\net6.0\refint\BuberBreakfast.Contracts.dll
 C:\Users\ssporeni\Desktop\Study\.Net\prova_02_breakfast\BuberBreakfast\BuberBreakfast.Contracts\obj\Debug\net6.0\BuberBreakfast.Contracts.pdb
 C:\Users\ssporeni\Desktop\Study\.Net\prova_02_breakfast\BuberBreakfast\BuberBreakfast.Contracts\obj\Debug\net6.0\ref\BuberBreakfast.Contracts.dll
+E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast.Contracts\bin\Debug\net6.0\BuberBreakfast.Contracts.deps.json
+E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast.Contracts\bin\Debug\net6.0\BuberBreakfast.Contracts.dll
+E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast.Contracts\bin\Debug\net6.0\BuberBreakfast.Contracts.pdb
+E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast.Contracts\obj\Debug\net6.0\BuberBreakfast.Contracts.csproj.AssemblyReference.cache
+E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast.Contracts\obj\Debug\net6.0\BuberBreakfast.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast.Contracts\obj\Debug\net6.0\BuberBreakfast.Contracts.AssemblyInfoInputs.cache
+E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast.Contracts\obj\Debug\net6.0\BuberBreakfast.Contracts.AssemblyInfo.cs
+E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast.Contracts\obj\Debug\net6.0\BuberBreakfast.Contracts.csproj.CoreCompileInputs.cache
+E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast.Contracts\obj\Debug\net6.0\BuberBreakfast.Contracts.dll
+E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast.Contracts\obj\Debug\net6.0\refint\BuberBreakfast.Contracts.dll
+E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast.Contracts\obj\Debug\net6.0\BuberBreakfast.Contracts.pdb
+E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast.Contracts\obj\Debug\net6.0\ref\BuberBreakfast.Contracts.dll

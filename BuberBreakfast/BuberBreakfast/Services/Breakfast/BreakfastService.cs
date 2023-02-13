@@ -7,10 +7,12 @@ namespace BuberBreakfast.Services.Breakfasts;
 public class BreakfastService : IBreakfastService
 {
     private static readonly Dictionary<Guid, Breakfast> _breakfasts = new();
-    public void CreateBreakfast(Breakfast breakfast)
+    public ErrorOr<Created> CreateBreakfast(Breakfast breakfast)
     {
         //Store data db, repo, memory.
         _breakfasts.Add(breakfast.Id, breakfast);
+
+        return Result.Created;
     }
 
     public ErrorOr<Breakfast> GetBreakfast(Guid id)
@@ -23,11 +25,15 @@ public class BreakfastService : IBreakfastService
        return Errors.Breakfast.NotFound;
         
     }
-    public void DeleteBreakfast(Guid id) {
+    public ErrorOr<Deleted> DeleteBreakfast(Guid id) {
         _breakfasts.Remove(id);
+
+        return Result.Deleted;
     }
 
-    public void UpsertBreakfast(Breakfast breakfast) {
+    public ErrorOr<Updated> UpsertBreakfast(Breakfast breakfast) {
         _breakfasts[breakfast.Id] = breakfast;
+
+        return Result.Updated;
     }
 }
