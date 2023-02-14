@@ -17,23 +17,35 @@ public class BreakfastService : IBreakfastService
 
     public ErrorOr<Breakfast> GetBreakfast(Guid id)
     {
-        if(_breakfasts.TryGetValue(id, out var breakfast))
+        if (_breakfasts.TryGetValue(id, out var breakfast))
         {
             return breakfast;
         }
         //Query data
-       return Errors.Breakfast.NotFound;
-        
-    }
-    public ErrorOr<Deleted> DeleteBreakfast(Guid id) {
-        _breakfasts.Remove(id);
+        return Errors.Breakfast.NotFound;
 
-        return Result.Deleted;
+    }
+    public ErrorOr<Deleted> DeleteBreakfast(Guid id)
+    {
+
+        if (_breakfasts.ContainsKey(id))
+        {
+            _breakfasts.Remove(id);
+
+            return Result.Deleted;
+        }
+
+        return Errors.Breakfast.NotFound;
     }
 
-    public ErrorOr<Updated> UpsertBreakfast(Breakfast breakfast) {
+    public ErrorOr<UpsertedBreakfast> UpsertBreakfast(Breakfast breakfast)
+    {
+
+        var isNewlyCreated = !_breakfasts.ContainsKey(breakfast.Id);
+
+
         _breakfasts[breakfast.Id] = breakfast;
 
-        return Result.Updated;
+        return new UpsertedBreakfast(isNewlyCreated);
     }
 }

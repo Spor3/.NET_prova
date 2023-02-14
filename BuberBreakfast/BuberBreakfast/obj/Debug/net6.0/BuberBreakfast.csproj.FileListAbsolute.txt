@@ -52,3 +52,9 @@ E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast\obj\Debug\net6.0\refint\Bub
 E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast\obj\Debug\net6.0\BuberBreakfast.pdb
 E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast\obj\Debug\net6.0\BuberBreakfast.genruntimeconfig.cache
 E:\.NET\BuberBreakfast\BuberBreakfast\BuberBreakfast\obj\Debug\net6.0\ref\BuberBreakfast.dll
+C:\Users\ssporeni\Desktop\Study\.Net\prova_02_breakfast\BuberBreakfast\BuberBreakfast\bin\Debug\net6.0\ErrorOr.dll
+C:\Users\ssporeni\Desktop\Study\.Net\prova_02_breakfast\BuberBreakfast\BuberBreakfast\obj\Debug\net6.0\staticwebassets\msbuild.BuberBreakfast.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ssporeni\Desktop\Study\.Net\prova_02_breakfast\BuberBreakfast\BuberBreakfast\obj\Debug\net6.0\staticwebassets\msbuild.build.BuberBreakfast.props
+C:\Users\ssporeni\Desktop\Study\.Net\prova_02_breakfast\BuberBreakfast\BuberBreakfast\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BuberBreakfast.props
+C:\Users\ssporeni\Desktop\Study\.Net\prova_02_breakfast\BuberBreakfast\BuberBreakfast\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BuberBreakfast.props
+C:\Users\ssporeni\Desktop\Study\.Net\prova_02_breakfast\BuberBreakfast\BuberBreakfast\obj\Debug\net6.0\staticwebassets.pack.json
